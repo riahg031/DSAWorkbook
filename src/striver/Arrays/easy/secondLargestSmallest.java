@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class secondLargestSmallest {
     public static void main(String[] args){
-        int[] arr= {2, 14, 5, 69, 9, 4, 69};
+        int[] arr= {2, 14, 5, -1, 0, 69, 9, 4, 69};
         System.out.println(getElements(arr));
         System.out.println(getElements2(arr));
         System.out.println(getElements3(arr));
