@@ -1,6 +1,6 @@
 package striver.Arrays.easy;
 
-public class isSortedArray {
+public class IsSortedArray {
     public static void main(String[] args){
         //int[] arr= {2, 14, 5, -1, 0, 69, 9, 4, 69};
         //int[] arr= {-1, 0, 1, 3, 4, 4, 6, 7};

@@ -3,7 +3,7 @@ package striver.Arrays.easy;
 
 import java.util.Arrays;
 
-public class secondLargestSmallest {
+public class SecondLargestSmallest {
     public static void main(String[] args){
         int[] arr= {2, 14, 5, -1, 0, 69, 9, 4, 69};
         System.out.println(getElements(arr));

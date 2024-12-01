@@ -2,7 +2,7 @@ package striver.Arrays.easy;
 // Q: Find largest element in an array.
 import java.util.Arrays;
 
-public class largestElement {
+public class LargestElement {
     public static void main(String[] args) {
         int[] arr= {2, 14, 5, 69, 9, 4};
         System.out.println(findMax(arr));
