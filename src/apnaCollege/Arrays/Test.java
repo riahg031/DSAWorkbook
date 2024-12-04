@@ -1,8 +1,8 @@
-package Arrays;
+package apnaCollege.Arrays;
 
-public class PrintSubarrays {
+public class Test {
     public static void main(String[] args){
-        int[] arr ={90, 56,9, 12, 6, 0, -4};
+        int[] arr ={1, 2, 3, 4, 5};
         printSubarrays(arr);
     }
     public static void printSubarrays(int[] arr){
