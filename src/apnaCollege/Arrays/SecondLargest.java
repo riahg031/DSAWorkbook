@@ -22,7 +22,7 @@ public class SecondLargest {
         return secondLarge;
     }
 
-    //Find second smallest
+    //Optimal approach: Find second smallest
     public static int secondSmallest(int[] arr){
         int smallest = arr[0];
         int secondSmall = Integer.MAX_VALUE;

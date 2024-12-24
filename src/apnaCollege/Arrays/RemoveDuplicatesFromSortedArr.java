@@ -18,11 +18,10 @@ public class RemoveDuplicatesFromSortedArr {
         HashSet<Integer> set = new HashSet<>();
         for(int i=0; i<arr.length; i++)
             set.add(arr[i]);
-//        Iterator it = set.iterator();
-//        int i=0;
-//
-//        while(it.hasNext())
-//            arr[i++] = it.next();
+
+        int i=0;
+        for (Integer x : set)
+            arr[i++] = x;
         return set.size();
     }
     //Binary search
