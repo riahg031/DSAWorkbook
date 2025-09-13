@@ -34,7 +34,7 @@ public class TwoSum {
         }
         return null;
     }
-    //Slight better approach=> Two pointer & greedy=> TC: O(), SC: O(n)
+    //Slight better approach=> Two pointer & greedy=> TC: O(n+ n), SC: O(n)
     public static int[] findTwoSum3(int[] arr, int target){
         //storing the order of original array
         HashMap<Integer, Integer> map= new HashMap<>();

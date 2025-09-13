@@ -17,13 +17,11 @@ public class UnionOfTwoArrays {
     //n= union.size(), n1= arr1.length; n2= arr2.length
     public static ArrayList<Integer> findUnion(int[] arr1, int[] arr2){
         HashSet<Integer> set= new HashSet<>();
-        ArrayList<Integer> union= new ArrayList<>();
         for(int i=0; i<arr1.length; i++)
             set.add(arr1[i]);
         for(int i=0; i<arr2.length; i++)
             set.add(arr2[i]);
-        for(int x: set)
-            union.add(x);
+        ArrayList<Integer> union = new ArrayList<>(set);
         return union;
     }
     //Brute force=> Using HashMap=> TC: O(n1*logn + n2*logn), SC: O(n1+n2)
